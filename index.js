@@ -12,8 +12,7 @@ mondayWork();
 mondayWork('work from home');
 //Wrap Adjective
 function wrapAdjective(operator = '||'){
-     const innerFunction = function (adjective = "a dedicated programmer") {
+     return function (adjective = "a dedicated programmer") {
         return `You are ${operator}${adjective}${operator}!`;
     };
-    return innerFunction;
 }
