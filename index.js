@@ -17,10 +17,3 @@ function wrapAdjective(operator = '||'){
     };
     return innerFunction;
 }
-
-function outer(msg = "It's a fine day to learn") {
-    return function (name, lang = "Python") {
-      return `Hello, ${name}! ${msg} ${lang}`;
-    };
-  }
-  outer("student", "JavaScript");
